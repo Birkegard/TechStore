@@ -1,6 +1,7 @@
 package org.iths.techstore.Controller;
 
 import org.iths.techstore.Model.Supplier;
+import org.iths.techstore.Service.SupplierService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
