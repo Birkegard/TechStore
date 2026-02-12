@@ -20,7 +20,8 @@ public class Review {
     public Review() {
     }
 
-    public Review(String productName, int rating, String comment, LocalDate reviewDate, String reviewerName) {
+    public Review(Long id, String productName, int rating, String comment, LocalDate reviewDate, String reviewerName) {
+        this.id = id;
         this.productName = productName;
         this.rating = rating;
         this.comment = comment;
