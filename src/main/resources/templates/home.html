@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="layout">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Arial;
+            background: #f5f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .home-container {
+            height: calc(100vh - 70px); /* minus navbar */
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .home-title {
+            font-size: 56px;
+            font-weight: 700;
+            color: #0a1f44;
+
+            text-shadow: 0 0 20px rgba(10,31,68,0.15);
+        }
+
+        .home-subtitle {
+            margin-top: 15px;
+            font-size: 20px;
+            color: #555;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div layout:fragment="content">
+
+    <div class="home-container">
+
+        <div>
+
+            <div class="home-title">
+                Welcome to Tech Store
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
