@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'mvnw.cmd clean package -Dspring.profiles.active=test'
+                sh './mvnw clean package -Dspring.profiles.active=test'
             }
         }
     }
